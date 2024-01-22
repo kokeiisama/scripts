@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# curl wttr.in/Tianjin\?format="%l:+%c+%t+feels+like+%f,+moon+tonight:+%m\n"
+
+echo "\n"
+
+curl wttr.in/Tianjin\?format="%l:+%C+%c+%t+feels+like+%f,+wind:%w,+moon+tonight:+%m\n"
+
