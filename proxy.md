@@ -27,4 +27,11 @@ unset ALL_PROXY
 env | grep -i proxy
 
 
-use .(dot) <filename> or source <filename> to set unset proxy. 
+use .(dot) <filename> or source <filename> to set unset proxy.
+
+
+
+#windows
+set HTTP_PROXY=http://127.0.0.1:10809
+set HTTPS_PROXY=http://127.0.0.1:10809
+ 
